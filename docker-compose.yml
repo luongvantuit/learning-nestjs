@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: ausvie
+    image: ausvie:1.0.0
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 3000:3000
+      - 9229:9229
+    networks:
+      - nesjs-network
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo:latest
+    restart: always
+    volumes:
+      - "./db:/data/db"
+    ports:
+      - "27017:27017"
+    container_name: mongodb
+    networks:
+      - nesjs-network
+
+networks:
+  nesjs-network:

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice information</title>
+  </head>
+
+  <body>
+    <h1>Invoice information</h1>
+    <table>
+      <tr>
+        <th>Index</th>
+        <th>Product</th>
+        <th>Classify</th>
+        <th>Quantity</th>
+        <th>Amount</th>
+      </tr>
+      <% for(var i = 0; i < order.carts.length; i++) { %>
+      <tr>
+        <td><%= i %></td>
+        <td><%= order.carts[i].product.name %></td>
+        <td><%= order.carts[i].classify.name %></td>
+        <td><%= order.carts[i].quantity %></td>
+        <td><%= order.carts[i].amount %></td>
+      </tr>
+      <% } %>
+    </table>
+    <b>Total Amount: </b><%= order.totalAmount %>
+  </body>
+</html>

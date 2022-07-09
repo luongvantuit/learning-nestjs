@@ -1,0 +1,225 @@
+[
+    {
+        "_id": "6248a62555f82a465bf5bac4",
+        "sellerId": "6239bfec31675139aad4a174",
+        "name": "shirt",
+        "category": [
+            "shirt"
+        ],
+        "photos": [
+            "shirt.jpg"
+        ],
+        "brand": "VN",
+        "description": "shirt",
+        "minPrice": 70,
+        "classifies": {
+            "id": "6248a62555f82a465bf5bac8",
+            "linkImage": {
+                "nameDisplay": "Color",
+                "dataIn": [
+                    {
+                        "name": "White",
+                        "image": "white.jpg",
+                        "_id": "6248a62555f82a465bf5bacf"
+                    },
+                    {
+                        "name": "Black",
+                        "image": "black.jpg",
+                        "_id": "6248a62555f82a465bf5bad0"
+                    }
+                ],
+                "_id": "6248a62555f82a465bf5bace"
+            },
+            "variationInfo": {
+                "nameDisplay": "Size",
+                "dataIn": [
+                    {
+                        "name": "S",
+                        "link": "White",
+                        "quantity": 10,
+                        "price": 100,
+                        "_id": "6248a62555f82a465bf5baca"
+                    },
+                    {
+                        "name": "S",
+                        "link": "Black",
+                        "quantity": 10,
+                        "price": 100,
+                        "_id": "6248a62555f82a465bf5bacb"
+                    },
+                    {
+                        "name": "M",
+                        "link": "White",
+                        "quantity": 10,
+                        "price": 70,
+                        "_id": "6248a62555f82a465bf5bacc"
+                    },
+                    {
+                        "name": "M",
+                        "link": "Black",
+                        "quantity": 10,
+                        "price": 120,
+                        "_id": "6248a62555f82a465bf5bacd"
+                    }
+                ],
+                "_id": "6248a62555f82a465bf5bac9"
+            },
+            "productId": "6248a62555f82a465bf5bac4"
+        }
+    },
+    {
+        "_id": "6248a62555f82a465bf5bad4",
+        "sellerId": "6239bfec31675139aad4a174",
+        "name": "skirt",
+        "category": [
+            "skirt"
+        ],
+        "photos": [
+            "shirt.jpg"
+        ],
+        "brand": "UK",
+        "description": "skirt",
+        "minPrice": 30,
+        "classifies": {
+            "id": "6248a62555f82a465bf5bad8",
+            "linkImage": {
+                "nameDisplay": "Color",
+                "dataIn": [
+                    {
+                        "name": "Red Plaid",
+                        "image": "Red.jpg",
+                        "_id": "6248a62555f82a465bf5badf"
+                    },
+                    {
+                        "name": "Black Plaid",
+                        "image": "Black.jpg",
+                        "_id": "6248a62555f82a465bf5bae0"
+                    }
+                ],
+                "_id": "6248a62555f82a465bf5bade"
+            },
+            "variationInfo": {
+                "nameDisplay": "Size",
+                "dataIn": [
+                    {
+                        "name": "S",
+                        "link": "Red Plaid",
+                        "quantity": 20,
+                        "price": 30,
+                        "_id": "6248a62555f82a465bf5bada"
+                    },
+                    {
+                        "name": "S",
+                        "link": "Black Plaid",
+                        "quantity": 20,
+                        "price": 50,
+                        "_id": "6248a62555f82a465bf5badb"
+                    },
+                    {
+                        "name": "M",
+                        "link": "Red Plaid",
+                        "quantity": 15,
+                        "price": 70,
+                        "_id": "6248a62555f82a465bf5badc"
+                    },
+                    {
+                        "name": "M",
+                        "link": "Black Plaid",
+                        "quantity": 15,
+                        "price": 120,
+                        "_id": "6248a62555f82a465bf5badd"
+                    }
+                ],
+                "_id": "6248a62555f82a465bf5bad9"
+            },
+            "productId": "6248a62555f82a465bf5bad4"
+        }
+    },
+    {
+        "_id": "6248a62555f82a465bf5bae4",
+        "sellerId": "6239bfec31675139aad4a174",
+        "name": "dress",
+        "category": [
+            "dress"
+        ],
+        "photos": [
+            "dress.jpg"
+        ],
+        "brand": "USA",
+        "description": "dress",
+        "minPrice": 80,
+        "classifies": {
+            "id": "6248a62555f82a465bf5bae8",
+            "linkImage": {
+                "nameDisplay": "Color",
+                "dataIn": [
+                    {
+                        "name": "Beige",
+                        "image": "Beige.jpg",
+                        "_id": "6248a62555f82a465bf5baf1"
+                    },
+                    {
+                        "name": "Black",
+                        "image": "Black.jpg",
+                        "_id": "6248a62555f82a465bf5baf2"
+                    },
+                    {
+                        "name": "Blue",
+                        "image": "Blue.jpg",
+                        "_id": "6248a62555f82a465bf5baf3"
+                    }
+                ],
+                "_id": "6248a62555f82a465bf5baf0"
+            },
+            "variationInfo": {
+                "nameDisplay": "Size",
+                "dataIn": [
+                    {
+                        "name": "S",
+                        "link": "Beige",
+                        "quantity": 20,
+                        "price": 80,
+                        "_id": "6248a62555f82a465bf5baea"
+                    },
+                    {
+                        "name": "S",
+                        "link": "Black",
+                        "quantity": 10,
+                        "price": 90,
+                        "_id": "6248a62555f82a465bf5baeb"
+                    },
+                    {
+                        "name": "S",
+                        "link": "Blue",
+                        "quantity": 20,
+                        "price": 100,
+                        "_id": "6248a62555f82a465bf5baec"
+                    },
+                    {
+                        "name": "M",
+                        "link": "Beige",
+                        "quantity": 15,
+                        "price": 90,
+                        "_id": "6248a62555f82a465bf5baed"
+                    },
+                    {
+                        "name": "M",
+                        "link": "Black",
+                        "quantity": 5,
+                        "price": 120,
+                        "_id": "6248a62555f82a465bf5baee"
+                    },
+                    {
+                        "name": "M",
+                        "link": "Blue",
+                        "quantity": 15,
+                        "price": 100,
+                        "_id": "6248a62555f82a465bf5baef"
+                    }
+                ],
+                "_id": "6248a62555f82a465bf5bae9"
+            },
+            "productId": "6248a62555f82a465bf5bae4"
+        }
+    }
+]

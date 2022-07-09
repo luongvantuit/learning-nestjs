@@ -1,0 +1,40 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Nest Framework",
+      "args": ["${workspaceFolder}/src/main.ts"],
+      "runtimeExecutable": "yarn",
+      "windows": {
+        "runtimeArgs": ["start:window:dev"]
+      },
+      "osx": {
+        "runtimeArgs": ["start:dev"]
+      },
+      "sourceMaps": true,
+      "envFile": "${workspaceFolder}/.env",
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal",
+      "protocol": "inspector"
+    },
+    {
+      "name": "Debug Jest Tests",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "yarn",
+      "windows": {
+        "runtimeArgs": ["test:window:debug"],
+      },
+      "osx": {
+        "runtimeArgs": ["test:debug"],
+      },
+      
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "port": 9229
+    },
+  ]
+}
